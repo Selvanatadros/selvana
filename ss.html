@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body >
+    <fieldset style="background-color: bisque;" >
+        <legend style="background-color: violet">Personal Date</legend>
+
+
+    <form  style="background-color: blanchedalmond"action="/action_page.php" method="get" name="myForm"
+    >
+    <fieldset>
+<legend style="background-color: violet"> Your Name</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="button" onclick="formSubmit()" value="Send form data!">
+    </fieldset>
+      </form>
+      <br>
+      <br>
+      <form action="/action_page.php" method="get" name="myForm">
+        <label for="dd">Your phone:</label>
+        <input type="text" id="dd" name="dd"><br><br>
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="re_password">re_password:</label>
+        <input type="password" id="re_password" name="re_password"><br><br>
+      </form>
+      
+      <form action="/action_page.php">
+        <input type="radio" id="male" name="m" value="male" checked>
+        <label for="male"> male</label><br>
+        <input type="radio" id="female" name="m" value=" female" >
+        <label for="female">female</label><br>
+      </form>
+    <form action="/action_page.php">
+        <input type="checkbox" id="student" name="n" value="student" checked>
+        <label for="student"> student</label><br>
+        <input type="checkbox" id=" Graduated" name="n" value=" Graduated">
+        <label for="vehicle2"> Graduated</label><br>
+      </form>
+      <label for="dog-names">Choose chollage:</label>
+<select name="dog-names" id="dog-names">
+    <option value="auc">auc</option>
+  <option value="guc">guc</option>
+  <option value="modern academy">moden academy</option>
+  <input type="button" onclick="formSubmit()" value="submit">
+</select>
+</fieldset>
+</body>
+</html>
