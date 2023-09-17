@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+        Login page
+    </title>
+    <!--<script src="name.js"></script>-->
+    <meta name="description" content="this is online registration" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="name.css" type="text/css" />
+    <script src="name.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+
+<body bgcolor="darkcyan">
+
+
+    <form>
+
+
+        <div class="container">
+            <label for="email"><b>Email</b></label><br>
+            <input type="email" placeholder="Enter email" name="email" required><br>
+
+            <label for="password"><b>password</b></label><br>
+            <input type="password" id="password" placeholder="Enter password" required>
+            <button onclick="toggler(this)" type="button">Show</button>
+            <br> <label for="id"><b>Id</b></label><br>
+            <input type="id" placeholder="Enter id" name="id" required oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"><br>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
