@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> the form</title>
+    
+</head>
+<body>
+    <form>
+    <fieldset style="background-color: brown;">
+<legend style="background-color: blue;">Personal Data</legend>
+<form>
+        <fieldset  style="background-color: yellow;">
+            <legend style="background-color: blueviolet; padding:30px 50px;"   >My Name</legend>
+            <table>
+                <tr>
+                    <td>fristname:</td>
+                <td><input  placeholder="fristName" type="text" name="fristName" id="fristName"> </td>
+                </tr>
+            <tr>
+                <td>secondname:</td>
+                <td><input  placeholder="secondName" type="text" name="secondName" id="secondName"> </td>
+                </tr>
+            </table>
+        </fieldset>
+       </form>
+    
+    <br>
+    <br>
+        <table>
+    <tr>
+        <td>Your phone:</td>
+    <td><input  placeholder="phone"    type="number" name="phone" id="phone" required> </td>
+    </tr>
+   <tr>
+    <td>email:</td>
+   <td><input  placeholder="email"    type="email" name="email" id="email" required></td>
+    </tr>
+    <tr>
+    <td>password:</td>
+    <td> <input  placeholder="pass"    type="password" name="password" id="password" required></td>
+    </tr>
+    <tr>
+    <td> RE-pasword:</td>
+    <td><input  placeholder="repassword"    type="password" name="repassword" id="repassword" required></td>
+    </tr>
+        </table>
+        <br>
+     
+    <label>female</label>
+        <input type="radio" name="gender" value="female" checked>
+        <label>male</label>
+        <input type="radio" name="gender" value="male">
+
+<br>
+<br>
+
+        <label>student</label>
+        <input type="checkbox" name="student" value="student">
+        <label>Graduated</label>
+        <input type="checkbox" name="student" value="Graduated">
+        <br>
+        <br>
+
+        <select name="select">
+            <optgroup label="GROUP1">
+                <option value="AUC">AUC</option>
+            </optgroup>
+            <optgroup label="GROUP2">
+                <option value="GUC">GUC</option>
+                <option value="FUE">FUE</option>
+            </optgroup>
+            <optgroup label="GROUP3">
+                <option value="A">moden</option>
+                <option value="UC">shrouk</option>
+                <option value="AC">aobour</option>
+            </optgroup>
+
+
+        </select>
+
+
+<button style="background-color: black; color: white;"   type="submit">submit</button>
+
+</fieldset>
+</form>
+</body>
+</html>
